@@ -1,0 +1,159 @@
+.body{
+  font-family: "Plus Jakarta Sans", serif !important;
+  font-optical-sizing: auto !important;
+   font-style: italic !important;
+   display:flex ;
+   flex-direction: column;
+   min-height: 100vh;
+}
+
+.container{
+    flex: 1;
+}
+
+.navbar{
+    height: 80px;
+    background-color: white;
+}
+.fa-compass{
+    color: #ff385c;
+    font-size: 2rem;
+}
+.nav-link{
+    color:#222222;
+}
+.footer-links a{
+    text-decoration: none;
+    color: #222222 ;
+}
+.footer-links a:hover{
+    text-decoration:underline;
+}
+.footer-links{
+     width:100%;
+     vertical-align: middle;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+}
+.footer-info-social{
+    font-size: 1.3rem;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+}
+.footer-info-social i{
+    margin-right: 1rem;
+    color: #222222;
+}
+.footer-info {
+    text-align: center;
+    height: 8rem;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:space-evenly ;
+}
+.comapny-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*cards*/
+.listing-card{
+    border:none;
+    object-fit: cover;
+    margin-bottom: 2rem;
+ 
+}
+
+.card-img-top{
+    border-radius: 1rem;
+    width: 100%;
+    height: 18rem;
+}
+.card-body{
+    padding: 0;
+}
+.card-text{
+    font-weight: 400 !important;
+}
+.listing-link{
+    text-decoration: none;
+}
+
+/*Card effect*/
+
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: #fff;
+}
+
+/*new form & create listing*/
+.add-btn{
+    background-color: #ff385c;
+    border: none;
+}
+
+/*edit route*/
+.edit-btn{
+   background-color:#ff385c ;
+}
+
+/* show page */
+
+.show-img{
+    height: 40vh;
+}
+
+.Edit-btn{
+    background-color:#ff385c ;
+    border: none;
+}
+
+.btn-danger{
+    background-color:#ff385c ;
+    
+    border-radius: 5px;
+    border:none;
+}
+
+.image-preview {
+    max-width: 30%; /* Ensures image is responsive */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Avoids extra spacing issues */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+}
+
+.btn-search {
+    background-color: #ff385c;
+    color: #fff;
+    border-radius: 25px;
+    padding: 0 1rem 0 1rem;
+    font-size: 1rem;
+  }
+  .btn-search:hover {
+    background-color: #ff385c;
+    color: #fff;
+  }
+
+  .btn-search i {
+    display: inline;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+  }
+
+  .search-inp {
+    border-radius: 25px;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+
+  }
